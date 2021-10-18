@@ -1,3 +1,3 @@
-# Repazitorijs saturs
+# Repazitorija saturs
 
-Šajā repazitorija glabajas Anetes majaslappa.
+Šajā repazitorijā glabājas Anetes majaslappa.
