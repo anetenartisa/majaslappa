@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8">
 <title>
 Anetes zīmejumu lappa
 </title>
@@ -7,16 +9,24 @@ Anetes zīmejumu lappa
 canvas {
 	border: 1px solid black;
 	width: 600px;
-	height: 600px;
+	height: 500px;
 	margin: 30px;
 }
 a {
-	color: green;}
+	color: green;
+}
 </style>
+<script src="zimet.js"></script>
 <script>
-function start() {
-	console.log("darbojas");
-	
+    var ctx, canvas;
+    window.onload = (e) => {
+        // Sagatavojam canvas elementu zīmēšanai
+        canvas = document.querySelector('canvas');
+        ctx = canvas.getContext('2d');
+    };
+    function start() {
+        // Šī funkcija tiks izpildīta tad, kad nospiež pogu
+        zimetKvadratu(ctx);
 	}
 </script>
 </head>
